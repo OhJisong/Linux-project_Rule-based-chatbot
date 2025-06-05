@@ -29,13 +29,6 @@ services:
       - backend
 
 
-  ai:
-    build: ./ai
-    ports:
-      - "5000:5000"
-    networks:
-      - backend
-
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: chatbot_project-phpmyadmin
