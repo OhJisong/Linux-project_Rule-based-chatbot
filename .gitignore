@@ -1,0 +1,9 @@
+db_data/
+venv/
+__pycache__/
+*.so
+*.pt
+*.pkl
+
+venv/
+db_data/
