@@ -99,10 +99,6 @@ ngrok http 8080
 3. [QR 코드 생성기](https://www.qr-code-generator.com/)로 QR 이미지 생성  
 4. `/images/qr_code.png` 에 저장 후 README에 추가
 
-```markdown
-![QR 코드](images/qr_code.png)
-```
-
 ---
 
 ## Docker 구조
@@ -120,6 +116,7 @@ ngrok http 8080
 
 - 로그인 / 회원가입 화면
 ![로그인 화면](images/login.png)
+
 ![회원가입](images/register.png)
 - 대화 인터페이스
 ![대화](images/chatbot.png)
