@@ -29,26 +29,7 @@
 
 ## 폴더 및 하위 파일 설명
 
-프로젝트 최상위 디렉토리
-├── db/                         # DB 설정 및 초기화 SQL 포함
-│   ├── Dockerfile             # MariaDB 컨테이너 설정 파일
-│   └── init.sql               # DB 생성 및 테이블 정의 스크립트
-├── web/                        # PHP 기반 웹 애플리케이션 코드
-│   ├── Dockerfile             # PHP + Apache 컨테이너 설정
-│   ├── chatbot.php            # 감정 분석 및 음악 추천 처리
-│   ├── emotion_stats.php      # 감정 통계 시각화 페이지
-│   ├── functions.php          # 공통 함수 및 DB 연결 정의
-│   ├── index.php              # 메인 대화 인터페이스
-│   ├── login.php              # 로그인 기능 처리
-│   ├── logout.php             # 로그아웃 처리
-│   ├── register.php           # 회원가입 처리
-│   ├── register_success.php   # 회원가입 성공 페이지
-│   └── style.css              # 전체 스타일 시트
-├── images/                    # 실행화면 스크린샷 저장 폴더
-│   └── (스크린샷 등 이미지 파일)
-├── .gitignore                 # Git에서 제외할 파일 목록
-├── README.md                  # 프로젝트 설명 문서
-└── docker-compose.yml         # 전체 서비스 도커 구성 파일
+<pre><code>📦 프로젝트 최상위 디렉토리 ├── db/ # DB 설정 및 초기화 SQL 포함 │ ├── Dockerfile # MariaDB 컨테이너 설정 파일 │ └── init.sql # DB 생성 및 테이블 정의 스크립트 ├── web/ # PHP 기반 웹 애플리케이션 코드 │ ├── Dockerfile # PHP + Apache 컨테이너 설정 │ ├── chatbot.php # 감정 분석 및 음악 추천 처리 │ ├── emotion_stats.php # 감정 통계 시각화 페이지 │ ├── functions.php # 공통 함수 및 DB 연결 정의 │ ├── index.php # 메인 대화 인터페이스 │ ├── login.php # 로그인 기능 처리 │ ├── logout.php # 로그아웃 처리 │ ├── register.php # 회원가입 처리 │ ├── register_success.php # 회원가입 성공 페이지 │ └── style.css # 전체 스타일 시트 ├── images/ # 실행화면 스크린샷 저장 폴더 │ └── (스크린샷 등 이미지 파일) ├── .gitignore # Git에서 제외할 파일 목록 ├── README.md # 프로젝트 설명 문서 └── docker-compose.yml # 전체 서비스 도커 구성 파일 </code></pre>
 
 
 ## 실행 방법
