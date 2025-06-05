@@ -116,12 +116,16 @@ ngrok http 8080
 
 - 로그인 / 회원가입 화면
 ![로그인 화면](images/login.png)
-
 ![회원가입](images/register.png)
 - 대화 인터페이스
 ![대화](images/chatbot.png)
 - 감정 통계 차트
 ![감정통계](images/emotion_stat.png)
+- DB
+![DB_history](images/DB_history.png)
+![DB_users](images/DB_users.png)
+- playlist 추천
+![playlist](images/playlist.png)
 - QR 코드 접속 예시
 ![QR 코드](images/qr.png)
 
