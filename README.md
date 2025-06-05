@@ -122,3 +122,7 @@ ngrok http 8080
 - Email: ohjisong@example.com
 - GitHub: https://github.com/OhJisong
 
+## ❗주의: 가상환경(venv)은 업로드하지 않습니다.
+본 프로젝트는 Python 가상환경(venv)에서 개발되었으나, 해당 폴더는 GitHub에 업로드하지 않았습니다.
+AI 관련 의존성 또는 대용량 모델 파일은 추후 필요 시 별도 설명하거나 Git LFS 등으로 관리할 수 있습니다.
+(https://github.com/OhJisong/VM_Linux_chatbot-emotion_project)
