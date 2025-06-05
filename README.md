@@ -128,6 +128,7 @@ ngrok http 8080
 ![playlist](images/playlist.png)
 - QR 코드 접속 예시
 ![QR 코드](images/qr.png)
+* 해당 QR은 연결된 홈페이지를 삭제한 상태입니다. 
 
 ---
 
