@@ -169,7 +169,7 @@ ngrok http 8080
 ## 문의
 
 - 작성자: 오지송 (Oh Jisong)  
-- Email: ohjisong@ewha.ac.kr 
+- Email: jso2562@ewha.ac.kr 
 - GitHub: https://github.com/OhJisong  
 
 ---
