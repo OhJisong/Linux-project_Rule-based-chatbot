@@ -115,15 +115,25 @@ http://localhost:8080
 
 ## 외부 접속용 QR 생성
 
-1. ngrok 설치 후 실행
+1. ngrok 설치 후 실행 (https://dashboard.ngrok.com/get-started/setup/windows)
 
 ```bash
+ngrok config add-authtoken '본인 토큰'
 ngrok http 8080
 ```
 
-2. 생성된 주소(`https://xxxx.ngrok.io`) 복사  
-3. [QR 코드 생성기](https://www.qr-code-generator.com/)로 QR 이미지 생성  
-4. `/images/qr_code.png` 에 저장 후 README에 추가
+2. qr 코드 : qrencode 설치
+
+```bash
+sudo apt update
+sudo apt install qrencode
+```
+
+3. 생성된 주소(`https://xxxx.ngrok.io`) 복사
+
+```bash
+qrencode -o ngrok_qr.png "https://7d3b-182-224-52-31.ngrok.io"
+```
 
 ---
 
