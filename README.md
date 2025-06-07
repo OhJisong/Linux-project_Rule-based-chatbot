@@ -59,7 +59,7 @@
 
 ```bash
 git clone https://github.com/OhJisong/Linix-project_Rule-based-chatbot.git
-cd chatbot-project
+cd Linix-project_Rule-based-chatbot
 ```
 
 ### 2. 도커 실행
