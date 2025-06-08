@@ -1,0 +1,21 @@
+FROM python:3.10-slim
+
+# 한글 자연어 처리를 위한 Java 설치 (konlpy 의존성)
+RUN apt-get update && apt-get install -y \
+    openjdk-11-jdk \
+    g++ \
+    curl \
+    git \
+    && rm -rf /var/lib/apt/lists/*
+
+# KoNLPy 설치 (필수)
+RUN pip install --no-cache-dir flask konlpy
+
+# 작업 디렉토리 설정
+WORKDIR /app
+
+# analyzer.py 복사
+COPY analyzer.py .
+
+# 서버 실행
+CMD ["python", "analyzer.py"]
